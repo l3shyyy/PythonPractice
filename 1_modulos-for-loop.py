@@ -8,3 +8,8 @@ for i in range(1, 101):
             total = total + i
 print(total)
  
+h = range(1,100)
+k = range(1,101)
+
+for i in range(1, 101):
+    print(i)

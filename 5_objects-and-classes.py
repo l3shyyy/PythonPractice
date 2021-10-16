@@ -1,11 +1,22 @@
 class Robot:
-    def introduce_self(self):
-        print("Hello, my name is " + self.name)
-#Constructor
+    #Constructor
     def __init__(self, name, color, weight):
         self.name = name
         self.color = color
         self.weight = weight
+    def introduce_self(self):
+        print("Hello, my name is " + self.name)
+
+class Person: 
+    def __init__(self, name, personality, isSitting):
+        self.name = name
+        self.personality = personality
+        self.isSitting = isSitting
+        
+    def sit_down(self):
+        self.isSitting = False
+    def stand_up(self):
+        self.isSitting = True
 
 #r1 = Robot()
 #r1.name = "Joe"
@@ -23,4 +34,7 @@ class Robot:
 r1 = Robot("Ruth", "Teal", 50)
 r2 = Robot("Jacob", "Orange", 340)
 
-r1.introduce_self()
+p1 = Person("Jane","Friendly", False)
+p1.robot_owned = r2
+
+p1.robot_owned.introduce_self()
