@@ -1,3 +1,5 @@
+# This program will download a 4K image, set it as your wallpaper and remove the file it downloaded. The 4K image is randomly selected from https://picsum.photos
+
 import ctypes
 import shutil
 import os
