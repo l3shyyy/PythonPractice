@@ -1,4 +1,4 @@
-# This file will allow you to select a JSON file, convert it to CSV and save it. 
+# This program will allow you to select a JSON file, convert it to CSV and save it. 
 
 import json
 import pandas
